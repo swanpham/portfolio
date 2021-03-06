@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body {
+
+    /* more on this crazy alphanumerical vvalue in a minute! */
+    color: grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: rgb(59, 4, 4);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: brown;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(148, 132, 30);
+}
+
+header nav {
+    display: flex;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+    
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+section {
+   padding: 100px;
+}
+
+/*hero style start */
+.hero {
+    background-image: url('../images/closeup-accountant-hands-counting-calculator_1262-3170.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Hero Style End */
+
+.hero-form {
+    position: absolute;
+    bottom: 120px;
+    right: 120px;
+    color: rgb(20, 17, 3);
+    border: 3px solid white;
+    background-color: white;
+    padding: 30px;
+    border-radius: 14px;
+   
+}
+
+.intro {
+    text-align: left;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* flex parent */
+.flex-container {
+    /*creative flexbox */
+    display: flex;
+    /* instruct it to break onto next line if it runs out of space */
+    flex-wrap: wrap;
+    /* put all unused space between items */
+    justify-content: center;
+    width: 100%;
+    font-size: 40px;
+    /*margin-left: 80px; */
+
+    
+  
+}
+#about-me {
+    display: flex;
+    justify-content: space-between;
+
+}
+p {
+    padding-left: 40px;
+}
+
+.section-title-primary-border {
+    font-size: 40px;
+    display: flex;
+    color: blue;
+    border-right: 5px solid black;
+    padding-right: 40px;
+    
+}
+
+main {
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 100%;
+}
+
+h2 {
+    display: block;
+    text-align: right;
+}
+#work {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.section-title-secondary-border {
+    font-size: 40px;
+    display: flex;
+    color: blue;
+    margin-right: 40px;
+    border-right: 5px solid black;
+    padding-right: 40px;
+    margin-left: 50px;
+}
+
+/* flex child */
+.flex-item {
+    /*make each one 45%, putting 10% between each element on the page */
+    width: 100%;
+    /* rounded corner */
+    border-radius: 14px;
+    border: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+    /* put space between each one vertically */
+    margin-bottom: 20px;
+
+    /*for files in local images folder, use url('../images/file-name.jpg) */
+    background-image : url('../images/depositphotos_11243363-stock-photo-consulting.jpg');
+
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    min-height: 350px;
+    display: flex;
+    flex-direction: coloum;
+    align-items: flex-end;
+}
+
+.flex-item span {
+    margin-top: auto;
+    width: 50%;
+    background-color: orange;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 14px;
+}
+
+.flex-item1 {
+    /*make each one 45%, putting 10% between each element on the page */
+    width: 50%;
+    /* rounded corner */
+    border-radius: 14px;
+    border: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+    /* put space between each one vertically */
+    margin-bottom: 20px;
+
+    /*for files in local images folder, use url('../images/file-name.jpg) */
+    background-image : url('../images/depositphotos_11243363-stock-photo-consulting.jpg');
+
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    min-height: 350px;
+    display: flex;
+    flex-direction: coloum;
+    align-items: flex-end;
+}
+
+.flex-item1 span {
+    margin-top: auto;
+    width: 50%;
+    background-color: yellow;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 14px;
+}
+
+.flex-item2 {
+    /*make each one 45%, putting 10% between each element on the page */
+    width: 50%;
+    /* rounded corner */
+    border-radius: 14px;
+    border: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+    /* put space between each one vertically */
+    margin-bottom: 20px;
+
+    /*for files in local images folder, use url('../images/file-name.jpg) */
+    background-image : url('../images/accounting-accounts-represents-balancing-the-books-and-accountan.jpg');
+
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    min-height: 350px;
+    display: flex;
+    flex-direction: coloum;
+}
+
+.flex-item2 span {
+    margin-top: auto;
+    width: 50%;
+    background-color: yellowgreen;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 14px;
+}
+
+.flex-item3 {
+    /*make each one 45%, putting 10% between each element on the page */
+    width: 50%;
+    /* rounded corner */
+    border-radius: 14px;
+    border: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+    /* put space between each one vertically */
+    margin-bottom: 20px;
+
+    /*for files in local images folder, use url('../images/file-name.jpg) */
+    background-image : url('../images/istockphoto-1148634836-612x612.jpg');
+
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    min-height: 350px;
+    display: flex;
+    flex-direction: coloum;
+}
+
+.flex-item3 span {
+    margin-top: auto;
+    width: 50%;
+    background-color: red;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 14px;
+}
+
+.flex-item4 {
+    /*make each one 45%, putting 10% between each element on the page */
+    width: 50%;
+    /* rounded corner */
+    border-radius: 14px;
+    border: 4px solid white;
+    font-size: 22px;
+    font-weight: bold;
+    /* put space between each one vertically */
+    margin-bottom: 10px;
+
+    /*for files in local images folder, use url('../images/file-name.jpg) */
+    background-image : url('../images/word-cloud-accounting-vector-1669672.jpg');
+
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+    min-height: 350px;
+    display: flex;
+    flex-direction: coloum;
+    height: 350px;
+}
+
+.flex-item4 span {
+    margin-top: auto;
+    width: 50%;
+    background-color: purple;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 14px;
+    
+}
