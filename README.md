@@ -3,7 +3,7 @@
 I work as an experienced professional over 10 years in Sage ERP Accpac. A very self-motivated, hard-working, and ready to take on any challenge. Have great communication skills and enjoy helping others in any way possible.
 
 ## Account Payable
-![Alt text](/assets/images/people-cooperation-accountant-consulting-accounting-pointing_1418-80 (1).jpg?raw=true "Optional Title")
+![Alt text](/assets/images/closeup-accountant-hands-counting-calculator_1262-3170.jpg?raw=true "Optional Title")
 
 ## Account Receivable
 ![Alt text](/assets/images/accounting-app-for-iPhone-1074x483.jpg?raw=true "Optional Title")
