@@ -6,7 +6,6 @@
 
  body {
 
-    /* more on this crazy alphanumerical vvalue in a minute! */
     color: grey;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -14,7 +13,7 @@
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: rgb(59, 4, 4);
+    background-color: rgb(27, 4, 4);
     display: flex;
     justify-content: space-between;
     
@@ -51,7 +50,7 @@ header nav ul li a {
 }
 
 section {
-   padding: 100px;
+   padding: 40px;
 }
 
 /*hero style start */
@@ -91,11 +90,8 @@ section {
 
 /* flex parent */
 .flex-container {
-    /*creative flexbox */
     display: flex;
-    /* instruct it to break onto next line if it runs out of space */
     flex-wrap: wrap;
-    /* put all unused space between items */
     justify-content: center;
     width: 100%;
     font-size: 40px;
@@ -106,7 +102,8 @@ section {
 }
 #about-me {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: right; */
+    padding-left: 107px;
 
 }
 p {
@@ -116,7 +113,7 @@ p {
 .section-title-primary-border {
     font-size: 40px;
     display: flex;
-    color: blue;
+    color: rgb(32, 28, 4);
     border-right: 5px solid black;
     padding-right: 40px;
     
@@ -130,22 +127,22 @@ main {
 
 h2 {
     display: block;
-    text-align: right;
+    text-align: left;
 }
 #work {
-    display:flex;
-    justify-content: space-between;
+    display: flex;
+    /* justify-content: left; */
     
 }
 
 .section-title-secondary-border {
     font-size: 40px;
     display: flex;
-    color: blue;
+    color: rgb(32, 28, 4);
     margin-right: 40px;
     border-right: 5px solid black;
     padding-right: 40px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 /* flex child */
@@ -158,10 +155,10 @@ h2 {
     font-size: 22px;
     font-weight: bold;
     /* put space between each one vertically */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     /*for files in local images folder, use url('../images/file-name.jpg) */
-    background-image : url('../images/depositphotos_11243363-stock-photo-consulting.jpg');
+    background-image : url('../images/people-cooperation-accountant-consulting-accounting-pointing_1418-80 (1).jpg');
 
     background-size: cover;
     background-position: center;
@@ -192,10 +189,10 @@ h2 {
     font-size: 22px;
     font-weight: bold;
     /* put space between each one vertically */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     /*for files in local images folder, use url('../images/file-name.jpg) */
-    background-image : url('../images/depositphotos_11243363-stock-photo-consulting.jpg');
+    background-image : url('../images/accounting-app-for-iPhone-1074x483.jpg');
 
     background-size: cover;
     background-position: center;
@@ -226,7 +223,7 @@ h2 {
     font-size: 22px;
     font-weight: bold;
     /* put space between each one vertically */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     /*for files in local images folder, use url('../images/file-name.jpg) */
     background-image : url('../images/accounting-accounts-represents-balancing-the-books-and-accountan.jpg');
@@ -242,7 +239,7 @@ h2 {
 .flex-item2 span {
     margin-top: auto;
     width: 50%;
-    background-color: yellowgreen;
+    background-color: rgb(138, 100, 106);
     color: black;
     padding: 10px 10px;
     text-align: center;
@@ -259,7 +256,7 @@ h2 {
     font-size: 22px;
     font-weight: bold;
     /* put space between each one vertically */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
     /*for files in local images folder, use url('../images/file-name.jpg) */
     background-image : url('../images/istockphoto-1148634836-612x612.jpg');
@@ -295,7 +292,7 @@ h2 {
     margin-bottom: 10px;
 
     /*for files in local images folder, use url('../images/file-name.jpg) */
-    background-image : url('../images/word-cloud-accounting-vector-1669672.jpg');
+    background-image : url('../images/Free-Accounting-Advice-Meeting.jpg');
 
     background-size: cover;
     background-position: center;
@@ -311,9 +308,145 @@ h2 {
     width: 50%;
     background-color: purple;
     color: black;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-align: center;
     border: 4px solid white;
     border-radius: 14px;
     
 }
+
+.section-title {
+    width: 15%;
+}
+
+.description {
+    width: 80%;
+}
+
+section nav {
+    float: center;
+    margin: 7px 0;
+}
+
+section div1 {
+    float: center;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+section nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+    text-decoration: underline;
+    
+}
+
+section nav ul li {
+    display: inline;
+    padding-left: 40px;
+    
+}
+.contact {
+    display: flex;
+    justify-content: left;
+    
+}
+
+
+/* Width at 1024px and below */
+@media screen and (max-width: 1024px) {
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* width at 768px and below */
+@media screen and (max-width: 768px) {
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* width at 600px and below */
+@media screen and (max-qidth: 600px) {
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 10px;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* width at 480px and below */
+@media screen and (max-width: 480px) {
+   
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+/* width at 300px and below */
+@media screen and (max-width: 300px) {
+    
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
