@@ -17,3 +17,5 @@ I work as an experienced professional over 10 years in Sage ERP Accpac. A very s
 ## Sales Management
 ![Alt text](/assets/images/Free-Accounting-Advice-Meeting.jpg?raw=true "Optional Title")
 
+Screen Shot:
+![Alt text](/assets/images/Portfolio.png?raw=true "Optional Title")
