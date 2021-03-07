@@ -55,7 +55,7 @@ section {
 
 /*hero style start */
 .hero {
-    background-image: url('../images/closeup-accountant-hands-counting-calculator_1262-3170.jpg');
+    background-image: url('../images/closeup-accountant-hands-counting-calculator_1262-3170.jpg@1.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -97,26 +97,25 @@ section {
     font-size: 40px;
     /*margin-left: 80px; */
 
-    
-  
+      
 }
+
 #about-me {
     display: flex;
     /* justify-content: right; */
-    padding-left: 107px;
-
+    /* padding-left: 107px;     */
 }
+/* 
 p {
-    padding-left: 40px;
-}
+    padding-left: 40px; 
+} */
 
 .section-title-primary-border {
     font-size: 40px;
     display: flex;
     color: rgb(32, 28, 4);
     border-right: 5px solid black;
-    padding-right: 40px;
-    
+    padding-right: 40px;        
 }
 
 main {
@@ -130,9 +129,7 @@ h2 {
     text-align: left;
 }
 #work {
-    display: flex;
-    /* justify-content: left; */
-    
+    display: flex;   
 }
 
 .section-title-secondary-border {
@@ -350,7 +347,7 @@ section nav ul li {
 .contact {
     display: flex;
     justify-content: left;
-    
+        
 }
 
 
@@ -372,8 +369,6 @@ section nav ul li {
         margin-top: 10px;
     }
 }
-flex-item: hover {font-size:150%;}
-
 
 /* width at 768px and below */
 @media screen and (max-width: 768px) {
