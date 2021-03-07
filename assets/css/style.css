@@ -302,7 +302,6 @@ h2 {
     flex-direction: coloum;
     height: 350px;
 }
-
 .flex-item4 span {
     margin-top: auto;
     width: 50%;
@@ -370,9 +369,11 @@ section nav ul li {
     }
 
     #sidebar {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 }
+flex-item: hover {font-size:150%;}
+
 
 /* width at 768px and below */
 @media screen and (max-width: 768px) {
@@ -389,7 +390,7 @@ section nav ul li {
     }
 
     #sidebar {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 }
 
@@ -408,7 +409,7 @@ section nav ul li {
     }
 
     #sidebar {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 }
 
@@ -427,7 +428,7 @@ section nav ul li {
     }
 
     #sidebar {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 }
 
@@ -446,7 +447,7 @@ section nav ul li {
     }
 
     #sidebar {
-        margin-top: 40px;
+        margin-top: 10px;
     }
 }
 
