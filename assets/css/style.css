@@ -73,7 +73,6 @@ section {
     background-color: white;
     padding: 30px;
     border-radius: 14px;
-   
 }
 
 .intro {
@@ -95,27 +94,11 @@ section {
     justify-content: center;
     width: 100%;
     font-size: 40px;
-    /*margin-left: 80px; */
-
-      
+    /*margin-left: 80px; */     
 }
 
 #about-me {
     display: flex;
-    /* justify-content: right; */
-    /* padding-left: 107px;     */
-}
-/* 
-p {
-    padding-left: 40px; 
-} */
-
-.section-title-primary-border {
-    font-size: 40px;
-    display: flex;
-    color: rgb(32, 28, 4);
-    border-right: 5px solid black;
-    padding-right: 40px;        
 }
 
 main {
@@ -330,26 +313,21 @@ section div1 {
     text-align: center;
 }
 
-
 section nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
     text-decoration: underline;
-    
 }
 
 section nav ul li {
     display: inline;
     padding-left: 40px;
-    
 }
 .contact {
     display: flex;
-    justify-content: left;
-        
+    /* justify-content: left; */
 }
-
 
 /* Width at 1024px and below */
 @media screen and (max-width: 1024px) {
