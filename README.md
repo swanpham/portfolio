@@ -25,4 +25,4 @@ I work as an experienced professional over 10 years in Sage ERP Accpac. A very s
 https://swanpham.github.io/portfolio/
 
 Screen Shot:
-![Alt text](/assets/images/Portfolio (1).png@1.jpg?raw=true "Optional Title")
+![Alt text](/assets/images/Portfolio (1).png@1.png?raw=true "Optional Title")
