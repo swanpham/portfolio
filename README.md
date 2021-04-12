@@ -20,10 +20,6 @@ I work as an experienced professional over 10 years in Sage ERP Accpac. A very s
 ## Built With
 * HTML
 * CSS
-* [jQuery](https://jquery.com/)
-* JavaScript
-* [OpenWeather API](https://openweathermap.org/)
-* [FontAwesome](https://fontawesome.com/)
 
 ## Website
 https://swanpham.github.io/weather-forecast/
