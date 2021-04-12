@@ -57,7 +57,7 @@
 
                 <div class="flex-item">
                     
-                    <span>
+                    <span >
                         <h3>Account Payable</h3>
                     </span>
                 </div>
@@ -89,6 +89,23 @@
 
         </section>
         <section class="contact">
+            <h2 class="section-title-secondary-border section-title">
+                BootCamp Project 1
+            </h2>
+            <div class="flex-container" >
+
+                <div class="flex-item5">
+                    
+                        <span class="link" data-link="https://primalorb.github.io/find_your_drink/">
+                            <h3>Drinkspo</h3>
+                        </span>
+                    </div>
+                
+            </div>
+
+
+        </section>
+        <section class="contact">
         <h2 class="section-title-secondary-border section-title ">
             Contact me
         </h2>
@@ -97,7 +114,7 @@
                 <div2 >
 
                     <nav>
-                         <ul>
+                        <ul>
                             <li>
                                 Phone: <a href="https://www.nailsrus.ca/tel:9056141008">905 614 1008</a>
                             </li>
@@ -116,6 +133,22 @@
     </section>
 
     </main>
+    <footer class="foot">
+        <h2>&copy;2021 Make with ❤️ by Swan Pham</h2>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    
+    <script>
+        $('.link').click(function(event){
+            event.preventDefault()
+            var link = $(event.target)
+                .closest('span')
+                .attr('data-link')
+            window.open(link, '_blank')
+        
+        })
+    </script>
     
 </body>
 
