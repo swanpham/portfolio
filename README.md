@@ -26,4 +26,5 @@ https://swanpham.github.io/portfolio/
 
 Screen Shot:
 
-![Alt text](/assets/images/Portfolio (1).png@1.jpg?raw=true "Optional Title")
+![image](https://user-images.githubusercontent.com/78882909/114331657-7a63a780-9b12-11eb-9205-4f4ee25a6e21.png)
+
