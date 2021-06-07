@@ -24,7 +24,7 @@ I work as an experienced professional over 10 years in Sage ERP Accpac. A very s
 ## Website
 https://swanpham.github.io/portfolio/
 
-Screen Shot:
+Screenshot:
 
 ![image](https://user-images.githubusercontent.com/78882909/120958690-3c57be00-c726-11eb-8482-24b28ab98847.png)
 
